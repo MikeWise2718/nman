@@ -1,0 +1,55 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+
+
+
+# images
+source_images/
+
+
+# Virtual environments
+venv/
+.venv/
+
+poc_1_1/results/raw_results/
+
+# Added from python template
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+ENV/
+uv.lock
+*.egg-info/
+*.egg
+logs/
+*.log
+.env
+.env.*
+!.env.example
+*.env
+.envrc
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.pytest_cache/
+.coverage
+htmlcov/
+Thumbs.db
+.DS_Store
+
+# project specific
+agents/
+uploads/
+trees/
+cache/

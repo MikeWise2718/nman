@@ -1,0 +1,104 @@
+Connecting to FritzBox...
+
+Found 11 WAN-related services:
+
+WANCommonIFC1
+  Trying GetAddonInfos...
+    SUCCESS! Found fields:
+      NewAutoDisconnectTime: 0
+      NewIdleDisconnectTime: 0
+  Trying X_AVM_DE_GetDsliteStatus...
+    No uptime fields in result
+  Trying X_AVM_DE_GetIPTVInfos...
+    No uptime fields in result
+
+WANDSLLinkC1
+  Trying GetDSLLinkInfo...
+    No uptime fields in result
+
+WANIPConn1
+  Trying GetConnectionTypeInfo...
+    No uptime fields in result
+  Trying GetStatusInfo...
+    SUCCESS! Found fields:
+      NewUptime: 1594705
+  Trying GetNATRSIPStatus...
+    No uptime fields in result
+
+WANIPv6Firewall1
+  Trying GetFirewallStatus...
+    No uptime fields in result
+
+WANCommonInterfaceConfig1
+
+WANDSLInterfaceConfig1
+  Trying GetInfo...
+    Failed: Unable to perform operation. 401 Unauthorized (ERR_NONE) 401 Unauthorized ERR_NO
+  Trying X_AVM-DE_GetDSLDiagnoseInfo...
+    SUCCESS! Found fields:
+      NewX_AVM-DE_DSLLastDiagnoseTime: 0
+      NewX_AVM-DE_DSLSignalLossTime: 0
+  Trying X_AVM-DE_GetDSLInfo...
+    No uptime fields in result
+
+X_AVM-DE_WANMobileConnection1
+  Trying GetInfo...
+    Failed: UPnPError: 
+errorCode: 401
+errorDescription: Invalid Action
+  Trying GetInfoEx...
+    Failed: UPnPError: 
+errorCode: 401
+errorDescription: Invalid Action
+
+WANDSLLinkConfig1
+  Trying GetInfo...
+    Failed: UPnPError: 
+errorCode: 401
+errorDescription: Invalid Action
+  Trying GetDSLLinkInfo...
+    Failed: UPnPError: 
+errorCode: 401
+errorDescription: Invalid Action
+
+WANEthernetLinkConfig1
+  Trying GetEthernetLinkStatus...
+    Failed: UPnPError: 
+errorCode: 401
+errorDescription: Invalid Action
+
+WANPPPConnection1
+  Trying GetInfo...
+    Failed: UPnPError: 
+errorCode: 401
+errorDescription: Invalid Action
+  Trying GetConnectionTypeInfo...
+    Failed: UPnPError: 
+errorCode: 401
+errorDescription: Invalid Action
+  Trying GetStatusInfo...
+    Failed: UPnPError: 
+errorCode: 401
+errorDescription: Invalid Action
+  Trying GetNATRSIPStatus...
+    Failed: UPnPError: 
+errorCode: 401
+errorDescription: Invalid Action
+
+WANIPConnection1
+  Trying GetInfo...
+    Failed: UPnPError: 
+errorCode: 401
+errorDescription: Invalid Action
+  Trying GetConnectionTypeInfo...
+    Failed: UPnPError: 
+errorCode: 401
+errorDescription: Invalid Action
+  Trying GetStatusInfo...
+    Failed: UPnPError: 
+errorCode: 401
+errorDescription: Invalid Action
+  Trying GetNATRSIPStatus...
+    Failed: UPnPError: 
+errorCode: 401
+errorDescription: Invalid Action

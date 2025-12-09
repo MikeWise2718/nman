@@ -41,7 +41,7 @@
 - Node list 
    - A Raspberry PI
    - various FritzBoxe Wifif Routers (including at least the 7490)
-   - Mikrotik Cloud Router Switch CR5125-24G--15-FIM
+   - Mikrotik Cloud Router Switch (CRS) CR5125-24G--15-FIM
    - Various Windows 11 PCs
    - Various Ubunto PCs
    

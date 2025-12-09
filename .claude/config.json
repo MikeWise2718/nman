@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "ssh-manager": {
+      "command": "node",
+      "args": ["/path/to/mcp-ssh-manager/src/index.js"],
+      "autoApprove": [
+        "mcp__ssh-manager__ssh_execute",
+        "mcp__ssh-manager__ssh_list_servers",
+        "mcp__ssh-manager__ssh_upload",
+        "mcp__ssh-manager__ssh_download",
+        "mcp__ssh-manager__ssh_sync",
+        "mcp__ssh-manager__ssh_alias"
+      ]
+    }
+  }
+}

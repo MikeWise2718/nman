@@ -1,0 +1,27 @@
+Connecting to FritzBox...
+
+Using sample device: 1u0022-se-568 (192.168.25.211)
+
+Testing WLANConfiguration1 GetStatistics:
+Failed: Unable to perform operation. 401 Unauthorized (ERR_NONE) 401 
+Unauthorized ERR_NONE Webserver Sun, 16 Nov 2025 14:00:30 GMT
+
+Testing WLANConfiguration1 GetPacketStatistics:
+Failed: UPnPError: 
+errorCode: 401
+errorDescription: Invalid Action
+
+Testing LANEthernetInterfaceConfig1 GetStatistics:
+Failed: UPnPError: 
+errorCode: 401
+errorDescription: Invalid Action
+
+Testing X_AVM-DE_GetSpecificHostEntryByIP for 192.168.25.211:
+Failed: UPnPError: 
+errorCode: 401
+errorDescription: Invalid Action
+
+Testing GetTotalAssociations:
+Failed: UPnPError: 
+errorCode: 401
+errorDescription: Invalid Action

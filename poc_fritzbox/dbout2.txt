@@ -1,0 +1,194 @@
+Connecting to FritzBox...
+
+Sample host data for MAC 50:2D:F4:3D:AC:A6:
+{
+│   'ip': '192.168.25.211',
+│   'name': '1u0022-se-568',
+│   'mac': '50:2D:F4:3D:AC:A6',
+│   'status': True,
+│   'interface_type': 'Ethernet',
+│   'address_source': 'DHCP',
+│   'lease_time_remaining': 0
+}
+
+Detailed host info:
+Failed: 'FritzHosts' object has no attribute 'get_host_details'
+
+Looking for LAN/Host services:
+
+LANConfigSecurity1
+  GetInfo
+  X_AVM-DE_GetCurrentUser
+  X_AVM-DE_GetAnonymousLogin
+  SetConfigPassword
+  X_AVM-DE_GetUserList
+
+X_AVM-DE_HostFilter1
+  MarkTicket
+  GetTicketIDStatus
+  DiscardAllTickets
+  DisallowWANAccessByIP
+  GetWANAccessByIP
+  GetHostEntryByIP
+  GetFilterProfileByID
+  AddTicketTimeToHostEntryByIP
+  AddHostEntryToFilterProfile
+  GetFilterProfiles
+
+WLANConfiguration1
+  SetEnable
+  GetInfo
+  SetConfig
+  SetSecurityKeys
+  GetSecurityKeys
+  SetDefaultWEPKeyIndex
+  GetDefaultWEPKeyIndex
+  SetBasBeaconSecurityProperties
+  GetBasBeaconSecurityProperties
+  GetStatistics
+  GetPacketStatistics
+  GetBSSID
+  GetSSID
+  SetSSID
+  GetBeaconType
+  SetBeaconType
+  GetChannelInfo
+  SetChannel
+  GetBeaconAdvertisement
+  SetBeaconAdvertisement
+  GetTotalAssociations
+  GetGenericAssociatedDeviceInfo
+  GetSpecificAssociatedDeviceInfo
+  X_AVM-DE_GetSpecificAssociatedDeviceInfoByIp
+  X_AVM-DE_GetWLANDeviceListPath
+  X_AVM-DE_SetStickSurfEnable
+  X_AVM-DE_GetIPTVOptimized
+  X_AVM-DE_SetIPTVOptimized
+  X_AVM-DE_GetNightControl
+  X_AVM-DE_GetWLANHybridMode
+  X_AVM-DE_SetWLANHybridMode
+  X_AVM-DE_GetWLANExtInfo
+  X_AVM-DE_GetWPSInfo
+  X_AVM-DE_SetWPSConfig
+  X_AVM-DE_SetWPSEnable
+  X_AVM-DE_SetWLANGlobalEnable
+  X_AVM-DE_GetWLANConnectionInfo
+
+WLANConfiguration2
+  SetEnable
+  GetInfo
+  SetConfig
+  SetSecurityKeys
+  GetSecurityKeys
+  SetDefaultWEPKeyIndex
+  GetDefaultWEPKeyIndex
+  SetBasBeaconSecurityProperties
+  GetBasBeaconSecurityProperties
+  GetStatistics
+  GetPacketStatistics
+  GetBSSID
+  GetSSID
+  SetSSID
+  GetBeaconType
+  SetBeaconType
+  GetChannelInfo
+  SetChannel
+  GetBeaconAdvertisement
+  SetBeaconAdvertisement
+  GetTotalAssociations
+  GetGenericAssociatedDeviceInfo
+  GetSpecificAssociatedDeviceInfo
+  X_AVM-DE_GetSpecificAssociatedDeviceInfoByIp
+  X_AVM-DE_GetWLANDeviceListPath
+  X_AVM-DE_SetStickSurfEnable
+  X_AVM-DE_GetIPTVOptimized
+  X_AVM-DE_SetIPTVOptimized
+  X_AVM-DE_GetNightControl
+  X_AVM-DE_GetWLANHybridMode
+  X_AVM-DE_SetWLANHybridMode
+  X_AVM-DE_GetWLANExtInfo
+  X_AVM-DE_GetWPSInfo
+  X_AVM-DE_SetWPSConfig
+  X_AVM-DE_SetWPSEnable
+  X_AVM-DE_SetWLANGlobalEnable
+  X_AVM-DE_GetWLANConnectionInfo
+
+WLANConfiguration3
+  SetEnable
+  GetInfo
+  SetConfig
+  SetSecurityKeys
+  GetSecurityKeys
+  SetDefaultWEPKeyIndex
+  GetDefaultWEPKeyIndex
+  SetBasBeaconSecurityProperties
+  GetBasBeaconSecurityProperties
+  GetStatistics
+  GetPacketStatistics
+  GetBSSID
+  GetSSID
+  SetSSID
+  GetBeaconType
+  SetBeaconType
+  GetChannelInfo
+  SetChannel
+  GetBeaconAdvertisement
+  SetBeaconAdvertisement
+  GetTotalAssociations
+  GetGenericAssociatedDeviceInfo
+  GetSpecificAssociatedDeviceInfo
+  X_AVM-DE_GetSpecificAssociatedDeviceInfoByIp
+  X_AVM-DE_GetWLANDeviceListPath
+  X_AVM-DE_SetStickSurfEnable
+  X_AVM-DE_GetIPTVOptimized
+  X_AVM-DE_SetIPTVOptimized
+  X_AVM-DE_GetNightControl
+  X_AVM-DE_GetWLANHybridMode
+  X_AVM-DE_SetWLANHybridMode
+  X_AVM-DE_GetWLANExtInfo
+  X_AVM-DE_GetWPSInfo
+  X_AVM-DE_SetWPSConfig
+  X_AVM-DE_SetWPSEnable
+  X_AVM-DE_SetWLANGlobalEnable
+  X_AVM-DE_GetWLANConnectionInfo
+
+Hosts1
+  GetHostNumberOfEntries
+  GetSpecificHostEntry
+  GetGenericHostEntry
+  X_AVM-DE_GetInfo
+  X_AVM-DE_GetChangeCounter
+  X_AVM-DE_SetHostNameByMACAddress
+  X_AVM-DE_GetAutoWakeOnLANByMACAddress
+  X_AVM-DE_SetAutoWakeOnLANByMACAddress
+  X_AVM-DE_WakeOnLANByMACAddress
+  X_AVM-DE_GetSpecificHostEntryByIP
+  X_AVM-DE_HostsCheckUpdate
+  X_AVM-DE_HostDoUpdate
+  X_AVM-DE_SetPrioritizationByIP
+  X_AVM-DE_GetHostListPath
+  X_AVM-DE_GetMeshListPath
+  X_AVM-DE_GetFriendlyName
+  X_AVM-DE_SetFriendlyName
+  X_AVM-DE_SetFriendlyNameByIP
+  X_AVM-DE_SetFriendlyNameByMAC
+  X_AVM-DE_SetDeviceClassUserByIP
+  X_AVM-DE_SetDeviceClassUserByMAC
+
+LANEthernetInterfaceConfig1
+  SetEnable
+  GetInfo
+  GetStatistics
+
+LANHostConfigManagement1
+  GetInfo
+  SetDHCPServerEnable
+  SetIPInterface
+  GetAddressRange
+  SetAddressRange
+  GetIPRoutersList
+  SetIPRouter
+  GetSubnetMask
+  SetSubnetMask
+  GetDNSServers
+  GetIPInterfaceNumberOfEntries

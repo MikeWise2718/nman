@@ -2,9 +2,18 @@
   "permissions": {
     "allow": [
       "Bash(uv run:*)",
-      "Bash(uv add:*)"
+      "Bash(uv add:*)",
+      "Bash(cat:*)",
+      "Bash(test:*)",
+      "Bash(tasklist:*)",
+      "Bash(node --version:*)",
+      "mcp__ssh-manager__ssh_list_servers",
+      "mcp__ssh-manager__ssh_execute"
     ],
     "deny": [],
     "ask": []
-  }
+  },
+  "enabledMcpjsonServers": [
+    "ssh-manager"
+  ]
 }
